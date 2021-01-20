@@ -1,0 +1,144 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+#### Text
+
+- Very dark desaturated blue: hsl(238, 29%, 16%)
+- Soft red: hsl(14, 88%, 65%)
+
+#### Gradient
+
+Background gradient:
+
+- Soft violet: hsl(273, 75%, 66%)
+- Soft blue: hsl(240, 73%, 65%)
+
+### Neutral
+
+#### Text
+
+- Very dark grayish blue: hsl(237, 12%, 33%)
+- Dark grayish blue: hsl(240, 6%, 50%)
+
+#### Dividers
+
+- Light grayish blue: hsl(240, 5%, 91%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 12px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+section {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  width: 920px;
+  height: 510px;
+}
+
+/* Img part */
+
+.card-left {
+  position: relative;
+  flex: 1;
+  background: url("./images/bg-pattern-desktop.svg") no-repeat 0 50%;
+  background-position: -487px -258px;
+  background-size: 891px;
+}
+
+#woman {
+  background: url("./images/illustration-woman-online-desktop.svg") no-repeat
+    center center/cover;
+  height: 100%;
+  background-size: 450px;
+  background-position: -50px 50px;
+}
+
+.card-left .box {
+  position: relative;
+  top: -338px;
+  left: -75px;
+}
+
+/* FAQ part */
+.card-right {
+  flex: 1;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.card-right h1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 32px;
+  color: hsl(237, 12%, 33%);
+}
+
+ul {
+  list-style: none;
+}
+
+.question-title {
+  margin-top: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  color: hsl(240, 6%, 50%);
+}
+
+.question-title img {
+  float: right;
+  width: 15px;
+  margin-right: 25px;
+}
+
+.question-title:hover {
+  cursor: pointer;
+}
+
+.question-answer {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

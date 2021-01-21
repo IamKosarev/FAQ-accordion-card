@@ -1,0 +1,45 @@
+body {
+  font-size: 14px;
+}
+
+.card {
+  margin-top: 70px;
+  width: 340px;
+  display: block;
+  height: 600px;
+}
+
+.card-left {
+  height: 120px;
+  background-position: 42px -135px;
+  background-size: 257px;
+}
+
+#woman {
+  position: absolute;
+  top: -110px;
+  width: 100%;
+  height: 200px;
+  background-size: 257px;
+  background-position: center;
+}
+
+.card-left .box {
+  position: relative;
+  width: 30%;
+  top: -32px;
+  left: 32px;
+}
+
+.card-right {
+  padding: 15px;
+}
+
+.card-right h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.answer {
+  font-size: 12px;
+}
